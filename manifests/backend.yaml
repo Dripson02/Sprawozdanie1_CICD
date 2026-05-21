@@ -37,7 +37,7 @@ metadata:
   name: tasklite-backend-service
   namespace: tasklite
 spec:
-  type: ClusterIP # Dostępny tylko wewnątrz klastra
+  type: ClusterIP
   ports:
   - port: 8000
     targetPort: 8000
